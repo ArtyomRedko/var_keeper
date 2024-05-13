@@ -1,4 +1,4 @@
-name: Pull Request To Main
+name: Pull Request To Main   
 run-name: Run All Tests
 on:
   pull_request:
