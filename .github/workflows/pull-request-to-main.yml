@@ -44,7 +44,8 @@ jobs:
           exit 1
           else
           echo "Integration Test PASS"
-          fi  mega_hard_testing:
+          fi
+  mega_hard_testing:
     needs: [unit_testing, integration_testing]
     runs-on: ubuntu-latest
     steps:
