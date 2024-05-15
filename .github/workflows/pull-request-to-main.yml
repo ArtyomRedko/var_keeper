@@ -1,11 +1,3 @@
-name: Pull Request To Main   
-run-name: Run All Tests
-on:
-  pull_request:
-    branches:
-      - 'main'
-jobs:
-
 name: Pull Request To Dev
 run-name: Run Integration Tests
 on:
